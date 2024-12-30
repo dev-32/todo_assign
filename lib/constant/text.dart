@@ -35,4 +35,5 @@ class AppText {
   static String underService =
       "Currently under service.\nPlease Try Again LaterLater🖥️";
   static String retry = "Retry";
+  static String pleaseWait = "Please Wait";
 }
