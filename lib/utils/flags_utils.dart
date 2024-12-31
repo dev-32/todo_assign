@@ -57,7 +57,7 @@ class _FlagsUtilsState extends State<FlagsUtils> {
     Size size = MediaQuery.of(context).size;
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 10),
-      height: size.height * 0.4,
+      height: size.height * 0.45,
       width: size.width * 0.8,
       decoration: BoxDecoration(
           color: AppColors.grayColor, borderRadius: BorderRadius.circular(12)),
@@ -71,21 +71,26 @@ class _FlagsUtilsState extends State<FlagsUtils> {
           const SizedBox(
             height: 5,
           ),
-          Wrap(
-            spacing: 12,
-            runSpacing: 12,
-            direction: Axis.horizontal,
-            children: AppText.indexNums
-                .map((val) => GestureDetector(
-                    onTap: () {
-                      selectedFlag = val;
-                      setFalseAndTrue(val - 1, indexBool);
-                    },
-                    child: FlagBoxUtil(
-                        isForTile: false,
-                        isSelected: indexBool[val - 1],
-                        index: val)))
-                .toList(),
+          SizedBox(
+            height: size.height * 0.25,
+            child: SingleChildScrollView(
+              child: Wrap(
+                spacing: 12,
+                runSpacing: 12,
+                direction: Axis.horizontal,
+                children: AppText.indexNums
+                    .map((val) => GestureDetector(
+                        onTap: () {
+                          selectedFlag = val;
+                          setFalseAndTrue(val - 1, indexBool);
+                        },
+                        child: FlagBoxUtil(
+                            isForTile: false,
+                            isSelected: indexBool[val - 1],
+                            index: val)))
+                    .toList(),
+              ),
+            ),
           ),
           const Spacer(),
           Row(

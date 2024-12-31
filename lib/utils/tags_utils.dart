@@ -72,22 +72,27 @@ class _TagsUtilsState extends State<TagsUtils> {
           const SizedBox(
             height: 5,
           ),
-          Wrap(
-            spacing: 12,
-            runSpacing: 12,
-            direction: Axis.horizontal,
-            children: AppIcons.categoryIconList.map((val) {
-              return GestureDetector(
-                  onTap: () {
-                    selectedCategory = val;
-                    setFalseAndTrue(val[2] - 1, indexBool);
-                  },
-                  child: CategoryBoxUtil(
-                    isSelected: indexBool[val[2] - 1],
-                    color: val[0],
-                    val: val[1],
-                  ));
-            }).toList(),
+          SizedBox(
+            height: size.height * 0.4,
+            child: SingleChildScrollView(
+              child: Wrap(
+                spacing: 12,
+                runSpacing: 12,
+                direction: Axis.horizontal,
+                children: AppIcons.categoryIconList.map((val) {
+                  return GestureDetector(
+                      onTap: () {
+                        selectedCategory = val;
+                        setFalseAndTrue(val[2] - 1, indexBool);
+                      },
+                      child: CategoryBoxUtil(
+                        isSelected: indexBool[val[2] - 1],
+                        color: val[0],
+                        val: val[1],
+                      ));
+                }).toList(),
+              ),
+            ),
           ),
           const Spacer(),
           Row(

@@ -131,7 +131,7 @@ class _TaskTileState extends State<TaskTile> {
               children: [
                 widget.dataModel.category.isNotEmpty
                     ? Container(
-                        height: size.height * 0.05,
+                        height: size.height * 0.06,
                         width: size.width * 0.1,
                         padding: const EdgeInsets.all(5),
                         decoration:
@@ -145,7 +145,7 @@ class _TaskTileState extends State<TaskTile> {
                 widget.dataModel.pritority > 0 &&
                         widget.dataModel.pritority < 11
                     ? SizedBox(
-                        height: size.height * 0.05,
+                        height: size.height * 0.06,
                         width: size.width * 0.1,
                         child: FlagBoxUtil(
                             isForTile: true,

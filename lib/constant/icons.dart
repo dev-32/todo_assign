@@ -11,7 +11,7 @@ class AppIcons {
       const Icon(AntDesign.user_outline, color: Colors.white);
 
   static Icon clockIcon =
-      const Icon(AntDesign.clock_circle_outline, color: Colors.white);
+      Icon(AntDesign.clock_circle_outline, color: AppColors.lightTextColor);
 
   static Icon tagIcon =
       const Icon(BoxIcons.bxs_purchase_tag_alt, color: Colors.white);

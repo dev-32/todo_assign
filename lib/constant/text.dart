@@ -38,4 +38,5 @@ class AppText {
   static String pleaseWait = "Please Wait";
   static String notFound = "No Result Found";
   static String hintTextSearchBar = "Enter the UserId";
+  static String notAvail = "This feature is not available";
 }

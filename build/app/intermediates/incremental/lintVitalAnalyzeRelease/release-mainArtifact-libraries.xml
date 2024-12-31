@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/Volumes/Ayushssd/Flutter Projects/todo_assign/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/Volumes/Ayushssd/Flutter Projects/todo_assign/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/Volumes/Ayushssd/Flutter Projects/todo_assign/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
-      name="/Volumes/Ayushssd/Flutter Projects/todo_assign/android@@:path_provider_android::release"
-      jars="/Volumes/Ayushssd/Flutter Projects/todo_assign/build/path_provider_android/.transforms/3f408fc94c15557a9d8060249b4929e9/transformed/out/jars/classes.jar:/Volumes/Ayushssd/Flutter Projects/todo_assign/build/path_provider_android/.transforms/3f408fc94c15557a9d8060249b4929e9/transformed/out/jars/libs/R.jar"
+      name="/Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android@@:path_provider_android::release"
+      jars="/Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/path_provider_android/.transforms/de7c795efa4a5daeb5d6fea3bc7e0343/transformed/out/jars/classes.jar:/Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/path_provider_android/.transforms/de7c795efa4a5daeb5d6fea3bc7e0343/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.pathprovider:path_provider_android:unspecified"
-      folder="/Volumes/Ayushssd/Flutter Projects/todo_assign/build/path_provider_android/.transforms/3f408fc94c15557a9d8060249b4929e9/transformed/out"
+      folder="/Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/path_provider_android/.transforms/de7c795efa4a5daeb5d6fea3bc7e0343/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Volumes/Ayushssd/Flutter Projects/todo_assign/android@@:shared_preferences_android::release"
-      jars="/Volumes/Ayushssd/Flutter Projects/todo_assign/build/shared_preferences_android/.transforms/d16d88f23d49c2a1d9f72129c448cf23/transformed/out/jars/classes.jar:/Volumes/Ayushssd/Flutter Projects/todo_assign/build/shared_preferences_android/.transforms/d16d88f23d49c2a1d9f72129c448cf23/transformed/out/jars/libs/R.jar"
+      name="/Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android@@:shared_preferences_android::release"
+      jars="/Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/shared_preferences_android/.transforms/d50b1fbc987bd05a608f92719b9f07ff/transformed/out/jars/classes.jar:/Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/shared_preferences_android/.transforms/d50b1fbc987bd05a608f92719b9f07ff/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
-      folder="/Volumes/Ayushssd/Flutter Projects/todo_assign/build/shared_preferences_android/.transforms/d16d88f23d49c2a1d9f72129c448cf23/transformed/out"
+      folder="/Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/shared_preferences_android/.transforms/d50b1fbc987bd05a608f92719b9f07ff/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

@@ -1,11 +1,11 @@
 <lint-module
     format="1"
-    dir="/Volumes/Ayushssd/Flutter Projects/todo_assign/android/app"
+    dir="/Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app"
     name=":app"
     type="APP"
     maven="android:app:"
     agpVersion="8.1.0"
-    buildFolder="/Volumes/Ayushssd/Flutter Projects/todo_assign/build/app"
+    buildFolder="/Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/app"
     bootClassPath="/Volumes/Ayushssd/Android/platforms/android-34/android.jar:/Volumes/Ayushssd/Android/build-tools/33.0.1/core-lambda-stubs.jar"
     javaSourceLevel="1.8"
     compileTarget="android-34">

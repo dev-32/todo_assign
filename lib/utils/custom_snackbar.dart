@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:todo_assign/constant/colors.dart';
-import 'package:todo_assign/constant/text.dart';
 import 'package:todo_assign/constant/text_styles.dart';
 
 class CustomSnackbar extends StatelessWidget {
