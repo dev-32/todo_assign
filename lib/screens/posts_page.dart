@@ -21,6 +21,14 @@ class PostsPage extends StatefulWidget {
 class _PostsPageState extends State<PostsPage> {
   final TextEditingController _searchController = TextEditingController();
   List<PostsDataModel> searchedPostResponseData = [];
+  List<PostsDataModel> postResponeData = [];
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,6 +48,8 @@ class _PostsPageState extends State<PostsPage> {
       body: BlocBuilder<SearchBloc, SearchPostState>(
           builder: (context, searchState) {
         return BlocBuilder<PostCubit, PostState>(builder: (context, postState) {
+          print(searchState);
+          print(postState);
           if (searchState is SearchPostLoadedState) {
             searchedPostResponseData = searchState.dataModel;
           }
@@ -74,6 +84,7 @@ class _PostsPageState extends State<PostsPage> {
               ],
             );
           } else if (postState is PostLoadedState) {
+            postResponeData = postState.dataModel;
             return Column(
               children: [
                 Container(
@@ -87,10 +98,10 @@ class _PostsPageState extends State<PostsPage> {
                     style: AppTextStyles.mediumWhiteText,
                     controller: _searchController,
                     onChanged: (str) {
-                      _searchController.text = str;
                       if (str.isEmpty) {
                         searchedPostResponseData.clear();
                       }
+                      _searchController.text = str;
                       setState(() {});
                     },
                     keyboardType: TextInputType.number,
@@ -102,8 +113,11 @@ class _PostsPageState extends State<PostsPage> {
                             vertical: 5, horizontal: 12),
                         suffixIcon: IconButton(
                             onPressed: () {
-                              BlocProvider.of<SearchBloc>(context)
-                                  .searchPosts(_searchController.text);
+                              _searchController.text.isNotEmpty
+                                  ? BlocProvider.of<SearchBloc>(context)
+                                      .searchPosts(_searchController.text)
+                                  : BlocProvider.of<PostCubit>(context)
+                                      .loadPost();
                               FocusScope.of(context).unfocus();
                             },
                             icon: AppIcons.searchSendIcon),
@@ -130,12 +144,12 @@ class _PostsPageState extends State<PostsPage> {
                             )
                           : ListView.builder(
                               itemCount: _searchController.text.isEmpty
-                                  ? postState.dataModel.length
+                                  ? postResponeData.length
                                   : searchedPostResponseData.length,
                               itemBuilder: (context, index) {
                                 PostsDataModel dataModel =
                                     _searchController.text.isEmpty
-                                        ? postState.dataModel[index]
+                                        ? postResponeData[index]
                                         : searchedPostResponseData[index];
                                 return Container(
                                   padding: const EdgeInsets.symmetric(
