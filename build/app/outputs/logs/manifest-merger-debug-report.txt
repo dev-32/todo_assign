@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:3:5-34:19
-INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:3:5-34:19
+INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/debug/AndroidManifest.xml
 MERGED from [androidx.window:window:1.2.0] /Users/ayush/.gradle/caches/transforms-3/3e108fe9d597d03770ae82acaebb5b63/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.window:window:1.2.0] /Users/ayush/.gradle/caches/transforms-3/3e108fe9d597d03770ae82acaebb5b63/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.core:core:1.13.1] /Users/ayush/.gradle/caches/transforms-3/c666c258fca39b3353b46678a6b928ab/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
@@ -15,19 +15,19 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ayush/.gradle/caches
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ayush/.gradle/caches/transforms-3/ee01e2b20f52029a052c42ac95f9e8b2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ayush/.gradle/caches/transforms-3/ee01e2b20f52029a052c42ac95f9e8b2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/debug/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /Users/ayush/.gradle/caches/transforms-3/c666c258fca39b3353b46678a6b928ab/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:name
-		INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:1:1-46:12
-MERGED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:1:1-46:12
-INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-MERGED from [:path_provider_android] /Volumes/Ayushssd/Flutter Projects/todo_assign/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:shared_preferences_android] /Volumes/Ayushssd/Flutter Projects/todo_assign/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+ADDED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:1:1-46:12
+MERGED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+MERGED from [:path_provider_android] /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/ayush/.gradle/caches/transforms-3/7374f32381d954e34124ee720ff47df8/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.datastore:datastore:1.0.0] /Users/ayush/.gradle/caches/transforms-3/1471cc351ba4f9046368b464c95dce27/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.preference:preference:1.2.1] /Users/ayush/.gradle/caches/transforms-3/10d0d8c1f4c5c1b7a3b300d05f7ebb5e/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
@@ -79,39 +79,39 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/ayush/.gradle/caches/transforms-3/0dc5f52e11e39e47d9a291708a767dcc/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/ayush/.gradle/caches/transforms-3/6707c561045b071954f9f1d8398a2530/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:2:1-63
-MERGED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:2:1-63
-MERGED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:2:1-63
+ADDED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:2:1-63
+MERGED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:2:1-63
+MERGED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:2:1-63
 	android:name
-		ADDED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:2:18-60
+		ADDED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:2:18-60
 queries
-ADDED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:40:5-45:15
+ADDED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:40:5-45:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:41:9-44:18
+ADDED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:41:9-44:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:42:13-72
+ADDED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:42:13-72
 	android:name
-		ADDED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:42:21-70
+		ADDED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:42:21-70
 data
-ADDED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:43:13-50
+ADDED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:43:13-50
 	android:mimeType
-		ADDED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/main/AndroidManifest.xml:43:19-48
+		ADDED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/main/AndroidManifest.xml:43:19-48
 uses-sdk
-INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/debug/AndroidManifest.xml
-MERGED from [:path_provider_android] /Volumes/Ayushssd/Flutter Projects/todo_assign/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /Volumes/Ayushssd/Flutter Projects/todo_assign/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] /Volumes/Ayushssd/Flutter Projects/todo_assign/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] /Volumes/Ayushssd/Flutter Projects/todo_assign/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/debug/AndroidManifest.xml
+MERGED from [:path_provider_android] /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/ayush/.gradle/caches/transforms-3/7374f32381d954e34124ee720ff47df8/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/ayush/.gradle/caches/transforms-3/7374f32381d954e34124ee720ff47df8/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.datastore:datastore:1.0.0] /Users/ayush/.gradle/caches/transforms-3/1471cc351ba4f9046368b464c95dce27/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -213,9 +213,9 @@ MERGED from [androidx.print:print:1.0.0] /Users/ayush/.gradle/caches/transforms-
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/ayush/.gradle/caches/transforms-3/6707c561045b071954f9f1d8398a2530/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/ayush/.gradle/caches/transforms-3/6707c561045b071954f9f1d8398a2530/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
-		INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Volumes/Ayushssd/Flutter Projects/todo_assign/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Volumes/Ayushssd/Flutter Projects/Flutter Assigns/todo_assign/android/app/src/debug/AndroidManifest.xml
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.2.0] /Users/ayush/.gradle/caches/transforms-3/3e108fe9d597d03770ae82acaebb5b63/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
 	android:required

@@ -25,6 +25,7 @@ class _TaskTileState extends State<TaskTile> {
   bool isTaskDone = false;
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Slidable(
       enabled: true,
       endActionPane: ActionPane(motion: const StretchMotion(), children: [
@@ -130,8 +131,8 @@ class _TaskTileState extends State<TaskTile> {
               children: [
                 widget.dataModel.category.isNotEmpty
                     ? Container(
-                        height: 40,
-                        width: 40,
+                        height: size.height * 0.05,
+                        width: size.width * 0.1,
                         padding: const EdgeInsets.all(5),
                         decoration:
                             BoxDecoration(color: AppColors.darkGrayColor),
@@ -144,8 +145,8 @@ class _TaskTileState extends State<TaskTile> {
                 widget.dataModel.pritority > 0 &&
                         widget.dataModel.pritority < 11
                     ? SizedBox(
-                        height: 40,
-                        width: 40,
+                        height: size.height * 0.05,
+                        width: size.width * 0.1,
                         child: FlagBoxUtil(
                             isForTile: true,
                             isSelected: false,

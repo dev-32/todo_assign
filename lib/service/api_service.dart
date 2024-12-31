@@ -19,4 +19,19 @@ class ApiService {
       return null;
     }
   }
+
+  static Future<List<PostsDataModel>?> searchPosts(String userId) async {
+    final response =
+        await http.get(Uri.parse(AppApiUrls.searchPostUrl + userId));
+    try {
+      if (response.statusCode == 200) {
+        final jsonList = json.decode(response.body) as List<dynamic>;
+        return jsonList.map((json) => PostsDataModel.fromJson(json)).toList();
+      } else {
+        return null;
+      }
+    } catch (e) {
+      return null;
+    }
+  }
 }

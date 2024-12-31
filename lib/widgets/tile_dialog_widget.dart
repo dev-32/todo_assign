@@ -21,7 +21,6 @@ class TileDialogWidget extends StatefulWidget {
 class _TileDialogWidgetState extends State<TileDialogWidget> {
   double height = 400;
   double width = 350;
-
   void setHeight() {
     if (widget.dataModel.description.isNotEmpty) {
       if (widget.dataModel.category.isEmpty) height = 200;
@@ -31,7 +30,7 @@ class _TileDialogWidgetState extends State<TileDialogWidget> {
     }
     if (widget.dataModel.description.isEmpty &&
         widget.dataModel.category.isEmpty) {
-      height = 200;
+      height = 160;
     }
   }
 
@@ -43,6 +42,7 @@ class _TileDialogWidgetState extends State<TileDialogWidget> {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Container(
       height: height,
       width: width,

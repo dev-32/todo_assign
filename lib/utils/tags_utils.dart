@@ -55,10 +55,11 @@ class _TagsUtilsState extends State<TagsUtils> {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 10),
-      height: 500,
-      width: 400,
+      height: size.height * 0.6,
+      width: size.width * 0.8,
       decoration: BoxDecoration(
           color: AppColors.grayColor, borderRadius: BorderRadius.circular(12)),
       child: Column(

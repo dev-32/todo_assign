@@ -20,6 +20,15 @@ class AppIcons {
 
   static Icon sendIcon = Icon(Bootstrap.send, color: AppColors.primaryColor);
 
+  static Icon searchIcon = const Icon(
+    BoxIcons.bx_search,
+    color: Colors.white,
+  );
+
+  static Icon searchSendIcon = const Icon(
+    BoxIcons.bxs_send,
+    color: Colors.white,
+  );
   static List<dynamic> categoryIconList = [
     [
       const Icon(

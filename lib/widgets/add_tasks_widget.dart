@@ -37,11 +37,12 @@ class _AddTaskWidgetState extends State<AddTaskWidget> {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return BlocBuilder<FlagCubit, int>(builder: (context, flagState) {
       return BlocBuilder<CategoryCubit, dynamic>(builder: (context, cateState) {
         return Container(
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 18),
-          height: 350,
+          height: size.height * 0.4,
           width: double.infinity,
           decoration: BoxDecoration(
               borderRadius: const BorderRadius.only(

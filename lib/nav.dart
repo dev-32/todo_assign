@@ -4,6 +4,7 @@ import 'package:icons_plus/icons_plus.dart';
 import 'package:persistent_bottom_nav_bar_v2/persistent_bottom_nav_bar_v2.dart';
 import 'package:todo_assign/bloc/notes_bloc/category_cubit.dart';
 import 'package:todo_assign/bloc/notes_bloc/flag_cubit.dart';
+import 'package:todo_assign/bloc/search_bloc/search_bloc.dart';
 import 'package:todo_assign/constant/colors.dart';
 import 'package:todo_assign/constant/text_styles.dart';
 import 'package:todo_assign/screens/index_page.dart';
@@ -52,7 +53,8 @@ class NavWidget extends StatelessWidget {
           ),
         ),
         PersistentTabConfig(
-          screen: const PostsPage(),
+          screen: BlocProvider(
+              create: (context) => SearchBloc(), child: const PostsPage()),
           item: ItemConfig(
               inactiveBackgroundColor: Colors.white,
               activeForegroundColor: Colors.white,

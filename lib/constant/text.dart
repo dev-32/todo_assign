@@ -36,4 +36,6 @@ class AppText {
       "Currently under service.\nPlease Try Again LaterLater🖥️";
   static String retry = "Retry";
   static String pleaseWait = "Please Wait";
+  static String notFound = "No Result Found";
+  static String hintTextSearchBar = "Enter the UserId";
 }

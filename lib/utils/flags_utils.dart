@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todo_assign/bloc/notes_bloc/category_cubit.dart';
 import 'package:todo_assign/bloc/notes_bloc/flag_cubit.dart';
 import 'package:todo_assign/constant/colors.dart';
 import 'package:todo_assign/constant/text.dart';
@@ -55,10 +54,11 @@ class _FlagsUtilsState extends State<FlagsUtils> {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 10),
-      height: 350,
-      width: 400,
+      height: size.height * 0.4,
+      width: size.width * 0.8,
       decoration: BoxDecoration(
           color: AppColors.grayColor, borderRadius: BorderRadius.circular(12)),
       child: Column(
